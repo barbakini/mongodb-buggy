@@ -19,7 +19,7 @@ public class CandidateController {
 
     @RequestMapping(method = RequestMethod.POST)
     public Candidate addCandidate(@RequestParam(value="candidateId", required=true) String candidateId) throws Exception {
-        Candidate candidate = candidateService.getValuesArray(candidateId, "experiences");
+        Candidate candidate = candidateService.findOne(candidateId);
         return candidate;
     }
 

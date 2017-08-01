@@ -11,24 +11,6 @@ import javax.validation.Valid;
 public class Experience extends CandidateInfo {
 
     @Valid
-    private ExpMain expMain;
-
-    @Valid
-    private Position position;
-
-    @Valid
     private CandidateInfoContainer<Responsibility> responsibilities;
-
-    @Valid
-    private CandidateInfoContainer<CandSkill> skills;
-
-    @Valid
-    private CandidateInfoContainer<Reference> references;
-
-    @Valid
-    private CandidateInfoContainer<Project> projects;
-
-    @Valid
-    private CandidateInfoContainer<FreeTextModel> description;
 
 }

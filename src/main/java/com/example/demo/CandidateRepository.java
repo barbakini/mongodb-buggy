@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
  * Created by barbakini on 3.03.2017.
  */
 @Repository
-public interface CandidateRepository extends MongoRepository<Candidate, String>, MongoTemplateRepository {
+public interface CandidateRepository extends MongoRepository<Candidate, String> {
 }
