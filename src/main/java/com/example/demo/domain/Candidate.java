@@ -1,4 +1,4 @@
-package com.example.demo.candidate;
+package com.example.demo.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;

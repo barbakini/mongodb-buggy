@@ -1,4 +1,4 @@
-package com.example.demo.candidate;
+package com.example.demo.domain;
 
 import lombok.Data;
 import org.springframework.data.annotation.ReadOnlyProperty;
@@ -9,18 +9,12 @@ import javax.validation.constraints.NotNull;
  * Created by barbakini on 7.03.2017.
  */
 @Data
-public class Handicap {
-
-    private String _id;
+public class Responsibility extends CandidateInfo {
 
     @NotNull
-    private String handicapId;
+    private String responsibilityId;
 
     @ReadOnlyProperty
-    private String handicapText;
-
-    private String description;
-
-    private boolean confirmed;
+    private String responsibilityText;
 
 }

@@ -1,7 +1,8 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 
-import com.example.demo.candidate.Candidate;
+import com.example.demo.domain.Candidate;
+import com.example.demo.repository.CandidateRepository;
 import com.example.demo.rest.RequestModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

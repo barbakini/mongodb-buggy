@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.example.demo.repository;
 
-import com.example.demo.candidate.Candidate;
+import com.example.demo.domain.Candidate;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
